@@ -94,7 +94,6 @@
     width: 100%;
   }
 }
-
 /* BLOCCO STEPS phone brekpoint */
 @media screen and (max-width: 420px){
   #steps .row>.left,
@@ -106,12 +105,9 @@
    
   }
 }
-
-
 #steps {
   text-align: center;
 }
-
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
@@ -145,6 +141,12 @@
   border-radius: 50%;
   padding: 30px
 }
+/* tablet/phone breakpint */
+@media screen and (max-width: 768px){
+  #why .row img {
+     padding: 10px
+   }
+ }
 /* COMMON */
 .row::after {
   content: '';
@@ -157,6 +159,13 @@
 img {
   height: 200px;
 }
+/* tablet breakpint */
+@media screen and (max-width: 768px){
+  img {
+     height: 120px;
+   }
+ }
+/* phone breakpoint */
 @media screen and (max-width: 420px){
  img {
     height: 100px;
